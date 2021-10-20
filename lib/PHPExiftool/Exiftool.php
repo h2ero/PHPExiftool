@@ -44,8 +44,7 @@ class Exiftool implements LoggerAwareInterface
      */
     public function executeCommand($command)
     {
-        $command = self::getBinary() . ' ' . $command;
-        $process = new Process(array($command));
+        $process = new Process(array(self::getBinary(),$command));
 
         //$this->logger->addInfo(sprintf('Exiftool executes command %s', $process->getCommandLine()));
 
