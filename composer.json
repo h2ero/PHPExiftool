@@ -17,8 +17,8 @@
         "doctrine/cache"       : "~1.0",
         "monolog/monolog"      : "^2.0",
         "phpexiftool/exiftool" : "10.12",
-        "symfony/process"      : "~2.0|~3.0",
-        "symfony/console"      : "~2.0|~3.0"
+        "symfony/process"      : "^5.0.1",
+        "symfony/console"      : "^5.0.1"
     },
     "suggest": {
         "jms/serializer"       : "To serialize tags",
